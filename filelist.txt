@@ -1,0 +1,4 @@
+C:\hoge\fuga\piyo
+D:\foo\bar\buz
+c:\Program Files
+%appdata%
