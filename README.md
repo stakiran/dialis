@@ -6,7 +6,7 @@ Enforce windows file dialog('open' and 'save as') with showing a popup-menu from
 
 dialis is a popup menu based file path copy tool.
 
-- 1: Push <kdb>ScrollLock</kdb> key in a file dialog.
+- 1: Push <kbd>ScrollLock</kbd> key in a file dialog.
   - :memo: Of course, the key you use can be changed.
 - 2: A poup menu is opend, so select one what you open.
 - 3: Copypasted with your selection.
@@ -33,7 +33,7 @@ $ build.ahk
 
 Secondly, set an commandline to call the dialis from your ahk script. For example...
 
-Example1: Use an exe file and <kdb>ScrollLock</kdb> key.
+Example1: Use an exe file and <kbd>ScrollLock</kbd> key.
 
 ```ahk
 #If WinActive("ahk_class #32770")
@@ -41,7 +41,7 @@ ScrollLock::run, D:\bin\dialis\dialis.exe
 #If
 ```
 
-Example2: Use an script and <kdb>ScrollLock</kdb> key.
+Example2: Use an script and <kbd>ScrollLock</kbd> key.
 
 ```ahk
 #If WinActive("ahk_class #32770")
