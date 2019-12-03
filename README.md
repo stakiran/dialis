@@ -31,7 +31,7 @@ $ (Edit build.ahk based on your environment)
 $ build.ahk
 ```
 
-Set an commandline to call the dialis from your ahk script. For example...
+Secondly, set an commandline to call the dialis from your ahk script. For example...
 
 Example1: Use an exe file and <kdb>ScrollLock</kdb> key.
 
@@ -48,6 +48,11 @@ Example2: Use an script and <kdb>ScrollLock</kdb> key.
 ScrollLock::run, D:\bin\dialis\dialis.ahk
 #If
 ```
+
+## How to use
+Open a file dialog, and push your hotkey.
+
+But it is recommended to push on the file name input-box.
 
 ## License
 [MIT License](LICENSE)
