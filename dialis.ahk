@@ -1,4 +1,4 @@
-﻿; dialis - version 0.0.1
+﻿; dialis - version 0.0.2
 
 prepare:
 
@@ -7,6 +7,8 @@ SetWorkingDir %A_ScriptDir%
 CoordMode Menu, Screen
 CoordMode Mouse, Screen
 CoordMode Caret, Screen
+; Use utf-8 on file read
+FileEncoding, CP65001
 
 ; consts
 EMBED_COUNTER_DELIM  := " | "
